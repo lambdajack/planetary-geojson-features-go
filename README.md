@@ -2,9 +2,11 @@
 
 ## Raw or Unmarshaled geojson features for every region defined by Geofabrik
 
-## Usage:
+### Installation:
 
 `go get github.com/lambdajack/planetary-geojson-features-go/region`
+
+### Usage:
 
 ```go
 func main() {
@@ -21,4 +23,4 @@ func main() {
 }
 ```
 
-### All functions/regions are listed [here](INDEX.md)
+#### All functions/regions are listed [here](INDEX.md)
