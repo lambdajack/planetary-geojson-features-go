@@ -10,16 +10,18 @@
 
 ```go
 func main() {
+
 	// Raw geojson
-	lux := region.EuropeLuxembourgBytes()
-	fmt.Println(string(lux))
+	luxembourg := region.EuropeLuxembourgBytes()
+	fmt.Println(string(luxembourg))
 
 	// Unmarshaled geojson
-	china, err := region.AsiaChinaUnmarshaled()
+	hokkaido, err := region.AsiaJapanHokkaidoUnmarshaled()
 	if err != nil {
 		fmt.Println(err)
 	}
-	fmt.Println(china.BBox)
+	fmt.Println(hokkaido.BBox)
+
 }
 ```
 
