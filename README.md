@@ -1,6 +1,6 @@
 # Planetary Geojson Features Go
 
-## Raw or Unmarshaled geojson features for every region defined by Geofabrik
+## Raw and Unmarshaled geojson features for every region defined by Geofabrik
 
 ### Installation:
 
@@ -24,3 +24,13 @@ func main() {
 ```
 
 #### All functions/regions are listed [here](INDEX.md)
+
+## Acknowledgments
+
+#### Unmarshalling by [Paul Mach](https://github.com/paulmach/go.geojson)
+
+#### Geojson features generated from the .poly files supplied by [Geofabrik](https://download.geofabrik.de/)
+
+## Disclaimer
+
+Not all regions in the world are available (only those supplied by Geofabrik). In line with their disclaimer, the region boundaries do not represent any political statements.
