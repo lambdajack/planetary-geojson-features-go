@@ -1,6 +1,6 @@
 # Planetary Geojson Features Go
 
-## Raw and Unmarshaled geojson features for every region defined by Geofabrik
+## Raw and Unmarshaled geojson features for every region defined by Geofabrik as Go functions
 
 ### Installation:
 
