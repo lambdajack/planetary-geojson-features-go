@@ -11,4 +11,10 @@ func TestUnmarshal(t *testing.T) {
 		t.Fatal(err)
 	}
 	fmt.Println(a)
+
+	b, err := AfricaUnmarshaled()
+	if err != nil {
+		t.Fatal(err)
+	}
+	fmt.Println(b)
 }
